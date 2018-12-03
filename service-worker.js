@@ -6,7 +6,7 @@ let filesToCache = [
     'css/colors.css',
     'js/object.observe.pollyfil.js',
     'js/array.observe.pollyfil.js',
-    'js/scripts.js'
+    'js/scripts.js',
     'initial_pwa/firebase-messaging-sw.js'
 ];
 
