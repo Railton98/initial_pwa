@@ -13,10 +13,25 @@
     <link rel="stylesheet" href="/initial_pwa/css/colors.css">
     <!-- Manifest -->
     <link rel="manifest" href="manifest.json">
+    <!-- Firebase Config -->
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDNqUzu53WdIERx6HqswyN2WlCcwHB14IQ",
+        authDomain: "initial-pwa-notes.firebaseapp.com",
+        databaseURL: "https://initial-pwa-notes.firebaseio.com",
+        projectId: "initial-pwa-notes",
+        storageBucket: "initial-pwa-notes.appspot.com",
+        messagingSenderId: "122758481160"
+      };
+      firebase.initializeApp(config);
+    </script>
     <!-- Scripts -->
     <script src="/initial_pwa/js/object.observe.pollyfil.js"></script>
     <script src="/initial_pwa/js/array.observe.pollyfil.js"></script>
     <script src="/initial_pwa/js/scripts.js"></script>
+    <script src="/initial_pwa/js/push.js"></script>
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
